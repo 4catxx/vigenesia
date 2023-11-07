@@ -93,20 +93,20 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 <p>
                     DI Bawah Link API Authentifikasi
                 </p>
-                <li><a href="<?php echo site_url('/api/user'); ?>">GET DATA USER</a> - defaulting to JSON</li>
-                <li><a href="<?php echo site_url('/api/PUTprofile'); ?>">PUT UNTUK Profile</a> - defaulting to JSON</li>
-                <li><a href="<?php echo site_url('/api/registrasi'); ?>">POST UNTUK PENDAFTARAN MEMBER</a> - defaulting to JSON</li>
-                <li><a href="<?php echo site_url('/api/login'); ?>">POST UNTUK LOGIN</a> - defaulting to JSON</li>
+                <li><a href="<?php echo site_url('vigenesia/api/user'); ?>">GET DATA USER</a> - defaulting to JSON</li>
+                <li><a href="<?php echo site_url('vigenesia/api/PUTprofile'); ?>">PUT UNTUK Profile</a> - defaulting to JSON</li>
+                <li><a href="<?php echo site_url('vigenesia/api/registrasi'); ?>">POST UNTUK PENDAFTARAN MEMBER</a> - defaulting to JSON</li>
+                <li><a href="<?php echo site_url('vigenesia/api/login'); ?>">POST UNTUK LOGIN</a> - defaulting to JSON</li>
 
             </ol>
             <ol>
                 <p>
                     DI Bawah Link API Motivasi
                 </p>
-                <li><a href="<?php echo site_url('/api/dev/POSTmotivasi'); ?>">POST UNTUK motivasi</a> - defaulting to JSON</li>
-                <li><a href="<?php echo site_url('/api/dev/PUTmotivasi'); ?>">PUT UNTUK Update motivasi</a> - defaulting to JSON</li>
-                <li><a href="<?php echo site_url('/api/Get_motivasi'); ?>">GET UNTUK motivasi</a> - defaulting to JSON</li>
-                <li><a href="<?php echo site_url('/api/dev/DELETEmotivasi'); ?>">Delete UNTUK motivasi</a> - defaulting to JSON</li>
+                <li><a href="<?php echo site_url('vigenesia/api/dev/POSTmotivasi'); ?>">POST UNTUK motivasi</a> - defaulting to JSON</li>
+                <li><a href="<?php echo site_url('vigenesia/api/dev/PUTmotivasi'); ?>">PUT UNTUK Update motivasi</a> - defaulting to JSON</li>
+                <li><a href="<?php echo site_url('vigenesia/api/Motivasi'); ?>">GET UNTUK motivasi</a> - defaulting to JSON</li>
+                <li><a href="<?php echo site_url('vigenesia/api/dev/DELETEmotivasi'); ?>">Delete UNTUK motivasi</a> - defaulting to JSON</li>
             </ol>
 
 
