@@ -156,10 +156,10 @@ switch (ENVIRONMENT)
 	// $routing['directory'] = '';
 
 	// The controller class file name.  Example:  mycontroller
-	// $routing['controller'] = '';
+	 $routing['controller'] = 'rest_server';
 
 	// The controller function you wish to be called.
-	// $routing['function']	= '';
+	 $routing['function']	= '';
 
 
 /*
